@@ -205,6 +205,67 @@ gap: 20px;
     display: flex;
     justify-content: space-evenly;
 }
+.Layout4{
+    width: 1000px;
+    background-color: #88C9FD;
+    text-align: center;
+    margin: auto;
+    padding: 40px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+.hope{
+    margin: 40px;
+    font-size: 40px;
+    margin-top:-200px ;
+}
+.imgm{
+    position: relative;
+    right: 440px;
+    bottom: 50px;
+}
+.imgp{
+    position: relative;
+    bottom: 170px;
+    left: 170px;
+}
+.input{
+    border: none;
+    padding: 10px;
+}
+.form{
+    border: 1px solid black;
+    width: 293px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #88C9FD;
+    width: 100px;
+}
+.last{
+    display: flex;
+    padding: 40px;
+    justify-content: space-evenly;
+}
+.fall{
+    display: flex;
+    gap: 30px;
+}
+.sms{
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
+    align-items: center;
+}
+.lol{
+    width: 400px;
+}
+.kola{
+    margin-top: 20px;
+}
 
 @media (max-width:510px) {
    
@@ -325,6 +386,29 @@ gap: 20px;
    .cnt1{
     width: 90%;
     
+   }
+   .Layout4{
+    width: 80%;
+   border-radius: 0px;
+   }
+   .hope{
+    font-size: 30px;
+   }
+   .imgp{
+  
+  bottom: 180px;
+  left: 130px;
+   }
+   .last{
+    flex-direction: column;
+    row-gap: 20px;
+   }
+   .lol{
+    width: 100%;
+
+   }
+   .form{
+    display: flex;
    }
    
 }

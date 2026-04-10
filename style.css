@@ -161,6 +161,17 @@ gap: 20px;
 .cont4{
     flex-direction: row-reverse;
 }
+.Layout3{
+    display: flex;
+    background-color: #88C9FD80;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px;
+}
+.how{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 @media (max-width:510px) {
    
@@ -256,6 +267,11 @@ gap: 20px;
    .h2{
     font-size: 34px;
     margin-top: 30px;
+   }
+   .Layout3{
+    flex-direction: column;
+    row-gap: 60px;
+    margin-top: 20px;
    }
    
 }
